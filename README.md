@@ -1,4 +1,4 @@
-# 🚀 MISSION CONTROL
+# MISSION CONTROL
 
 **An Educational Space Mission Design Simulator**
 
