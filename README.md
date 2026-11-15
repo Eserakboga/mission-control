@@ -24,7 +24,6 @@ MISSION CONTROL is an interactive educational game developed with **Godot 4 and 
 
 - Godot 4
 - GDScript
-- JSON
 
 ## Platform
 
