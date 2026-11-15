@@ -1,0 +1,36 @@
+{
+  "dataset": "NASA Planetary Fact Sheet - Metric",
+  "institution": "NASA Goddard Space Flight Center, National Space Science Data Center (NSSDCA)",
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+  "source_last_updated": "2026-11-13",
+  "accessed_utc_date": "2026-11-15",
+  "value_precision_note": "Values are transcribed at the precision displayed in the source table; no unit conversions have been applied.",
+  "fields": {
+    "mass": {"label": "Mass", "unit": "10^24 kg"},
+    "diameter": {"label": "Equatorial diameter", "unit": "km"},
+    "density": {"label": "Mean density", "unit": "kg/m^3"},
+    "surface_gravity": {"label": "Gravity reference", "unit": "m/s^2"},
+    "escape_velocity": {"label": "Escape velocity", "unit": "km/s"},
+    "rotation_period": {"label": "Rotation period", "unit": "hours"},
+    "length_of_day": {"label": "Length of day", "unit": "hours"}
+  },
+  "bodies": {
+    "mercury": {"name": "Mercury", "kind": "planet", "mass": 0.330, "diameter": 4879, "density": 5429, "surface_gravity": 3.7, "escape_velocity": 4.3, "rotation_period": 1407.6, "length_of_day": 4222.6, "source_display": {"mass": "0.330", "diameter": "4879", "density": "5429", "surface_gravity": "3.7", "escape_velocity": "4.3", "rotation_period": "1407.6", "length_of_day": "4222.6"}},
+    "venus": {"name": "Venus", "kind": "planet", "mass": 4.87, "diameter": 12104, "density": 5243, "surface_gravity": 8.9, "escape_velocity": 10.4, "rotation_period": -5832.5, "length_of_day": 2802.0, "source_display": {"mass": "4.87", "diameter": "12104", "density": "5243", "surface_gravity": "8.9", "escape_velocity": "10.4", "rotation_period": "-5832.5", "length_of_day": "2802.0"}},
+    "earth": {"name": "Earth", "kind": "planet", "mass": 5.97, "diameter": 12756, "density": 5514, "surface_gravity": 9.8, "escape_velocity": 11.2, "rotation_period": 23.9, "length_of_day": 24.0, "source_display": {"mass": "5.97", "diameter": "12756", "density": "5514", "surface_gravity": "9.8", "escape_velocity": "11.2", "rotation_period": "23.9", "length_of_day": "24.0"}},
+    "moon": {"name": "Moon", "kind": "natural satellite", "mass": 0.073, "diameter": 3475, "density": 3340, "surface_gravity": 1.6, "escape_velocity": 2.4, "rotation_period": 655.7, "length_of_day": 708.7, "source_display": {"mass": "0.073", "diameter": "3475", "density": "3340", "surface_gravity": "1.6", "escape_velocity": "2.4", "rotation_period": "655.7", "length_of_day": "708.7"}},
+    "mars": {"name": "Mars", "kind": "planet", "mass": 0.642, "diameter": 6792, "density": 3934, "surface_gravity": 3.7, "escape_velocity": 5.0, "rotation_period": 24.6, "length_of_day": 24.7, "source_display": {"mass": "0.642", "diameter": "6792", "density": "3934", "surface_gravity": "3.7", "escape_velocity": "5.0", "rotation_period": "24.6", "length_of_day": "24.7"}},
+    "jupiter": {"name": "Jupiter", "kind": "planet", "mass": 1898, "diameter": 142984, "density": 1326, "surface_gravity": 23.1, "escape_velocity": 59.5, "rotation_period": 9.9, "length_of_day": 9.9, "source_display": {"mass": "1898", "diameter": "142984", "density": "1326", "surface_gravity": "23.1", "escape_velocity": "59.5", "rotation_period": "9.9", "length_of_day": "9.9"}},
+    "saturn": {"name": "Saturn", "kind": "planet", "mass": 568, "diameter": 120536, "density": 687, "surface_gravity": 9.0, "escape_velocity": 35.5, "rotation_period": 10.7, "length_of_day": 10.7, "source_display": {"mass": "568", "diameter": "120536", "density": "687", "surface_gravity": "9.0", "escape_velocity": "35.5", "rotation_period": "10.7", "length_of_day": "10.7"}},
+    "uranus": {"name": "Uranus", "kind": "planet", "mass": 86.8, "diameter": 51118, "density": 1270, "surface_gravity": 8.7, "escape_velocity": 21.3, "rotation_period": -17.2, "length_of_day": 17.2, "source_display": {"mass": "86.8", "diameter": "51118", "density": "1270", "surface_gravity": "8.7", "escape_velocity": "21.3", "rotation_period": "-17.2", "length_of_day": "17.2"}},
+    "neptune": {"name": "Neptune", "kind": "planet", "mass": 102, "diameter": 49528, "density": 1638, "surface_gravity": 11.0, "escape_velocity": 23.5, "rotation_period": 16.1, "length_of_day": 16.1, "source_display": {"mass": "102", "diameter": "49528", "density": "1638", "surface_gravity": "11.0", "escape_velocity": "23.5", "rotation_period": "16.1", "length_of_day": "16.1"}},
+    "pluto": {"name": "Pluto", "kind": "dwarf planet", "mass": 0.0130, "diameter": 2376, "density": 1850, "surface_gravity": 0.6, "escape_velocity": 1.2, "rotation_period": -153.3, "length_of_day": 153.3, "source_display": {"mass": "0.0130", "diameter": "2376", "density": "1850", "surface_gravity": "0.6", "escape_velocity": "1.2", "rotation_period": "-153.3", "length_of_day": "153.3"}}
+  },
+  "notes": [
+    "Mass values use the source table scale of 10^24 kg.",
+    "The Moon's listed solar distance and orbital values in the source are marked as geocentric/asterisked; those values are intentionally not included here.",
+    "Signed rotation periods retain the source signs; negative values indicate retrograde rotation in this source convention.",
+    "Length of day is distinct from sidereal rotation period and is copied as its own source field.",
+    "NASA notes define diameter as equatorial diameter. Gravity is given at the equator including rotation for the terrestrial bodies and at the 1-bar pressure level for the gas giants. See the official Fact Sheet Notes page for definitions."
+  ]
+}

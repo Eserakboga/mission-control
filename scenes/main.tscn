@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dp2v048gwjx4p"]
+
+[ext_resource type="Script" uid="uid://cjyk42w8w5ao0" path="res://scripts/mission_control.gd" id="1"]
+
+[node name="MissionControl" type="Node3D" unique_id=1260528977]
+script = ExtResource("1")
